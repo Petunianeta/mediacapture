@@ -1,14 +1,16 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      Media capture
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <div>
+    <button ion-button  (click)= "onAudio()" >audio</button>
+       <button ion-button (click)= "onVedio()" >vedio</button>
+       <button ion-button (click)= "onImage()" >image</button>
+       <button ion-button (click)= "onShowImage()" >vedio</button>
+    </div>
 </ion-content>
